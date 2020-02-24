@@ -66,6 +66,9 @@ user interface.
 
 Within the __Manage Plugins__ section under __Manage Jenkins__, we recommend 
 that you update the Kubernetes Jenkins plugin to avoid issues with provisioning
- new Jenkins slaves. We make use of version 1.19.3.
+new Jenkins slaves. As of creating these instructions, we made use of version 
+1.19.3, which worked fine for us.
+ 
+![K8S Plugin](images/jenkins_k8s_plugin.png) 
  
  
