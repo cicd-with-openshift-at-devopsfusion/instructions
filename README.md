@@ -21,7 +21,7 @@ create your cluster.
 
 ![OpenShift Online](images/openshift_online.png)
 
-To use the OpenShift online, you need a RedHat account. If you 
+To use the OpenShift online platform, you need a RedHat account. If you 
 don't have an account yet, you can create one by clicking on 
 __Sign up for OpenShift Online__ on the lower left-hand side of the page. 
 To verify your account, RedHat will ask you to provide an email address 
@@ -73,7 +73,7 @@ new Jenkins slaves. As of creating these instructions, we made use of version
 
 ## Cloning our git repository
 
-The last thing you should do to prepare for our workshop is to __fork__ our 
+One more thing you should do to prepare for our workshop is to __fork__ our 
 [GitHub Repository](https://github.com/cicd-with-openshift-at-devopsfusion/workshop) 
 Afterward, feel free to clone it. Throughout the workshop, we will be 
 extending the Jenkins pipeline, which the repository contains. So make sure to 
