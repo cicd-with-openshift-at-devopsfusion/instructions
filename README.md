@@ -80,5 +80,30 @@ extending the Jenkins pipeline, which the repository contains. So make sure to
 have a local __git installation__ and a __text editor__ or IDE of your choice 
 at hand. In addition to that, you need access to __GitHub__ to push your changes.
 
+## Installing OC tools
+
+The last thing you need to do to be prepared for our workshop is to install 
+the OpenShift client tools. You can retrieve them from the 
+[Open Source Kubernetes Distribution page](https://www.okd.io/download.html). 
+Scroll down a little bit until you reach __Download oc Client Tools__. 
+Choose the package for your operating system and follow these instructions: 
+[Installing the CLI](https://docs.okd.io/latest/cli_reference/get_started_cli.html#installing-the-cli) 
  
+ ## Connecting to your OpenShift cluster
  
+Once you successfully installed the client tools, let's quickly check that 
+you can connect to your OpenShift cluster. First, go back to the OpenShift 
+web console, and on the top-right of the page, click the small arrow next to 
+your user name. Next, a click on __Copy Login Command__ should open up a new 
+web page with a single link: __Display Token__. 
+
+![Copy Login Command](images/oc_login.png) 
+
+This link will create a new  API token and a complete __oc login__ command. 
+Copy that command and paste it into a terminal in your notebook. 
+You should be able to connect to your cluster and see the message 
+__Using project "my-project".__ where my-project  stands for the name of your 
+OpenShift project. 
+ 
+__Congratulations, you're all set! We're looking forward to seeing you at our 
+workshop.__
