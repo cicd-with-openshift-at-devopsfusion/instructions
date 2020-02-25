@@ -71,15 +71,15 @@ new Jenkins slaves. As of creating these instructions, we made use of version
  
 ![K8S Plugin](images/jenkins_k8s_plugin.png) 
 
-## Cloning our git repository
+## Forking our git repository
 
 One more thing you should do to prepare for our workshop is to __fork__ our 
 [GitHub Repository](https://github.com/cicd-with-openshift-at-devopsfusion/workshop) 
-Afterward, feel free to clone it. Throughout the workshop, we will be 
-extending the Jenkins pipeline, which the repository contains. So make sure to 
-have a local __git installation__ and a __text editor__ or IDE of your choice 
-at hand. In addition to that, you need access to __GitHub__ to push your changes.
-
+Afterward, feel free to clone it. This is necessary since you will modify the 
+Jenkins pipeline throughout the workshop and push these changes back to the 
+remote repository. So make sure to have a local __git installation__ and 
+a __text editor__ or IDE of your choice at hand. 
+In addition to that, you need access to __GitHub__ to push your changes.
 ## Installing OC tools
 
 The last thing you need to do to be prepared for our workshop is to install 
